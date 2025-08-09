@@ -14,7 +14,7 @@ The **Complete Collatz mapping** extends the classical **Collatz Conjecture** to
 which treats zero as an odd number and allows for the dynamics to unify both positive and negative integers.
 
 **コラッツ予想の完全拡張**は、**Odd-Zero Paradigm**を通じて、  
-非ゼロ整数に対してコラッツ動力学を拡張するものです。0を奇数として扱い、正負の整数を一貫して扱えるようにします。
+すべての整数に対してコラッツ動力学を拡張するものです。0を奇数として扱い、正負の整数を一貫して扱えるようにします。
 
 The extended mapping is defined as:
 
