@@ -33,8 +33,7 @@ n / (-2), & \text{if } n \text{ is even} \\
 | Script name | Description (English) | 説明 (日本語) |
 |-------------|------------------------|--------------|
 | [`collatz_o_operator.py`](collatz_o_operator.py) | Full range scan, ABS1/NON-ABS1 classification, and cycle detection for the extended Collatz dynamics | コラッツ動力学の全範囲走査、ABS1/NON-ABS1分類、サイクル検出 |
-| `example.py` | Minimal demonstration of applying the Complete Collatz Conjecture | コラッツ予想の完全拡張を最小限のコードで実演 |
-| `analyze_cycles.py` | Analyze closed cycles and their stability properties | 閉じたサイクルとその安定性を解析 |
+
 
 ---
 
