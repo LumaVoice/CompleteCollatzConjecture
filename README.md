@@ -33,7 +33,7 @@ n / (-2), & \text{if } n \text{ is even} \\
 | Script name | Description (English) | 説明 (日本語) |
 |-------------|------------------------|--------------|
 | [`collatz_o_operator.py`](collatz_o_operator.py) | Full range scan, ABS1/NON-ABS1 classification, and cycle detection for the extended Collatz dynamics | コラッツ動力学の全範囲走査、ABS1/NON-ABS1分類、サイクル検出 |
-| [`figs_bpm1.py`](figs_bpm1.py) | Generate PDF visualizations of inverse-tree structures, branching windows, and coverage curves for Bridge types B(±1) and Wall types W(±1) | Bridge型B(±1)およびWall型W(±1)の逆木構造・分岐ウィンドウ・被覆率曲線をPDFとして生成 |
+| [`figure_tree.py`](figure_tree.py) | Generate PDF visualizations of inverse-tree structures, branching windows, and coverage curves for Bridge types B(±1) and Wall types W(±1) | Bridge型B(±1)およびWall型W(±1)の逆木構造・分岐ウィンドウ・被覆率曲線をPDFとして生成 |
 
 ---
 
@@ -48,7 +48,7 @@ These figures reveal the **structural symmetry, branching positions (mod 6 ≡ �
 ### Script
 | Script name | Description (English) | 説明 (日本語) |
 |-------------|------------------------|--------------|
-| [`figs_bpm1.py`](figs_bpm1.py) | Generate PDF figures for inverse-tree structure, branching windows, and coverage curves | 逆木構造、分岐ウィンドウ、被覆率曲線のPDF図を生成 |
+| [`figure_tree.py`](figure_tree.py) | Generate PDF figures for inverse-tree structure, branching windows, and coverage curves | 逆木構造、分岐ウィンドウ、被覆率曲線のPDF図を生成 |
 
 ### Figures generated
 1. **B(+1) inverse tree** — signed log₂ axis, canopy + ground shadows.  
