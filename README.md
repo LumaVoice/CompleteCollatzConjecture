@@ -33,7 +33,41 @@ n / (-2), & \text{if } n \text{ is even} \\
 | Script name | Description (English) | 説明 (日本語) |
 |-------------|------------------------|--------------|
 | [`collatz_o_operator.py`](collatz_o_operator.py) | Full range scan, ABS1/NON-ABS1 classification, and cycle detection for the extended Collatz dynamics | コラッツ動力学の全範囲走査、ABS1/NON-ABS1分類、サイクル検出 |
+| [`figs_bpm1.py`](figs_bpm1.py) | Generate PDF visualizations of inverse-tree structures, branching windows, and coverage curves for Bridge types B(±1) and Wall types W(±1) | Bridge型B(±1)およびWall型W(±1)の逆木構造・分岐ウィンドウ・被覆率曲線をPDFとして生成 |
 
+---
+
+## 🖼 Visualization / 可視化ツール
+
+The repository also includes **inverse-tree visualization tools** for the A1-stable Bridge types `B(+1)` and `B(−1)`.  
+These figures reveal the **structural symmetry, branching positions (mod 6 ≡ ±2)**, and the **growth of coverage toward all integers**.
+
+本リポジトリには、A1安定型である Bridge 型 `B(+1)` と `B(−1)` の**逆木構造可視化ツール**も含まれています。  
+これらの図は**正負対称性、mod 6 ≡ ±2での分岐位置**、および**全整数被覆への進展**を明らかにします。
+
+### Script
+| Script name | Description (English) | 説明 (日本語) |
+|-------------|------------------------|--------------|
+| [`figs_bpm1.py`](figs_bpm1.py) | Generate PDF figures for inverse-tree structure, branching windows, and coverage curves | 逆木構造、分岐ウィンドウ、被覆率曲線のPDF図を生成 |
+
+### Figures generated
+1. **B(+1) inverse tree** — signed log₂ axis, canopy + ground shadows.  
+   **B(+1)逆木** — 符号付きlog₂軸、樹冠と地面の影。
+2. **B(+1) × B(−1) combined** — mirror symmetry of positive/negative domains.  
+   **B(+1)×B(−1)合成** — 正負領域の鏡映対称性。
+3. **W(+1) × W(−1) combined** — “mirror wall” at zero (no sign crossing).  
+   **W(+1)×W(−1)合成** — 0での「鏡の壁」。
+4. **Branching window (combined)** — number line ±60, dual tick rulers for mod 6 ≡ −2 (B+1, top) and ≡ +2 (B−1, bottom).  
+   **分岐ウィンドウ（合成）** — 数直線±60、上下二重目盛。
+5. **Coverage curves** — coverage ratio in [−A, A] vs inverse depth.  
+   **被覆率曲線** — 逆深さに対する被覆率。
+
+### Usage
+```bash
+# Generate all figures
+python3 figs_bpm1.py
+```
+PDF files and a CSV with coverage data will be created in the current directory.
 
 ---
 
